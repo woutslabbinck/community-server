@@ -13,8 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         branch:
-          - 'main'
-          - 'versions/2.0.0'
+          - 'test/conformance'
     timeout-minutes: 10
     steps:
       - name: Use Node.js 16.x
